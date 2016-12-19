@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8EFC1DD1E07C7FB0069081D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1DC1E07C7FB0069081D /* AppDelegate.swift */; };
-		F8EFC1DF1E07C7FB0069081D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1DE1E07C7FB0069081D /* ViewController.swift */; };
-		F8EFC1E21E07C7FB0069081D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC1E01E07C7FB0069081D /* Main.storyboard */; };
-		F8EFC1E41E07C7FB0069081D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC1E31E07C7FB0069081D /* Assets.xcassets */; };
-		F8EFC1E71E07C7FB0069081D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC1E51E07C7FB0069081D /* LaunchScreen.storyboard */; };
+		3C1F3170331FA60D09CD7BF4 /* Pods_MVP_Test1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */; };
+		F8EFC1F91E07CB470069081D /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1F81E07CB470069081D /* ReadTableViewController.swift */; };
+		F8EFC1FB1E07CB730069081D /* ReadTableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1FA1E07CB730069081D /* ReadTableViewControllerProtocol.swift */; };
+		F8EFC1FD1E07CB9D0069081D /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1FC1E07CB9D0069081D /* ReadTableViewCell.swift */; };
+		F8EFC1FF1E07CBC40069081D /* ReadPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1FE1E07CBC40069081D /* ReadPresenter.swift */; };
+		F8EFC2011E07CBDE0069081D /* ReadPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC2001E07CBDE0069081D /* ReadPresenterProtocol.swift */; };
+		F8EFC2031E07CC070069081D /* ReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC2021E07CC070069081D /* ReadModel.swift */; };
+		F8EFC2071E07CC560069081D /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC2061E07CC560069081D /* FormData.swift */; };
+		F8EFC2091E07CCD50069081D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC2081E07CCD50069081D /* AppDelegate.swift */; };
+		F8EFC2111E07CD6C0069081D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC2101E07CD6C0069081D /* Assets.xcassets */; };
+		F8EFC2161E07CDAA0069081D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC2121E07CDA90069081D /* LaunchScreen.storyboard */; };
+		F8EFC2171E07CDAA0069081D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC2141E07CDA90069081D /* Main.storyboard */; };
+		F8EFC21D1E07D06F0069081D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8EFC21C1E07D06F0069081D /* Info.plist */; };
+		F8EFC21F1E07DF650069081D /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC21E1E07DF650069081D /* APIData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B126D7D42A068F9C45292B /* Pods-MVP Test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Test1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BC9A3026E439AC98A1A494 /* Pods-MVP Test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Test1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1.release.xcconfig"; sourceTree = "<group>"; };
 		F8EFC1D91E07C7FB0069081D /* MVP Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8EFC1DC1E07C7FB0069081D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8EFC1DE1E07C7FB0069081D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8EFC1E11E07C7FB0069081D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8EFC1E31E07C7FB0069081D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8EFC1E61E07C7FB0069081D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F8EFC1E81E07C7FB0069081D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EFC1F81E07CB470069081D /* ReadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadTableViewController.swift; path = Classes/Module/Read/View/ReadTableViewController.swift; sourceTree = "<group>"; };
+		F8EFC1FA1E07CB730069081D /* ReadTableViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadTableViewControllerProtocol.swift; path = Classes/Module/Read/View/ReadTableViewControllerProtocol.swift; sourceTree = "<group>"; };
+		F8EFC1FC1E07CB9D0069081D /* ReadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadTableViewCell.swift; path = Classes/Module/Read/View/ReadTableViewCell.swift; sourceTree = "<group>"; };
+		F8EFC1FE1E07CBC40069081D /* ReadPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadPresenter.swift; path = Classes/Module/Read/Presenter/ReadPresenter.swift; sourceTree = "<group>"; };
+		F8EFC2001E07CBDE0069081D /* ReadPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadPresenterProtocol.swift; path = Classes/Module/Read/Presenter/ReadPresenterProtocol.swift; sourceTree = "<group>"; };
+		F8EFC2021E07CC070069081D /* ReadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadModel.swift; path = Classes/Module/Read/Model/ReadModel.swift; sourceTree = "<group>"; };
+		F8EFC2061E07CC560069081D /* FormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormData.swift; path = "Classes/Data Model/FormData.swift"; sourceTree = "<group>"; };
+		F8EFC2081E07CCD50069081D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Resources/AppDelegate.swift; sourceTree = "<group>"; };
+		F8EFC2101E07CD6C0069081D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		F8EFC2131E07CDA90069081D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8EFC2151E07CDA90069081D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8EFC21C1E07D06F0069081D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		F8EFC21E1E07DF650069081D /* APIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIData.swift; path = "Classes/Data Model/APIData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1F3170331FA60D09CD7BF4 /* Pods_MVP_Test1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF7CA24E7B830C695E4362F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39B126D7D42A068F9C45292B /* Pods-MVP Test1.debug.xcconfig */,
+				B4BC9A3026E439AC98A1A494 /* Pods-MVP Test1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F12342DC946C5BE778DEB3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8EFC1D01E07C7FB0069081D = {
 			isa = PBXGroup;
 			children = (
 				F8EFC1DB1E07C7FB0069081D /* MVP Test1 */,
 				F8EFC1DA1E07C7FB0069081D /* Products */,
+				EF7CA24E7B830C695E4362F7 /* Pods */,
+				F12342DC946C5BE778DEB3D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,101 @@
 		F8EFC1DB1E07C7FB0069081D /* MVP Test1 */ = {
 			isa = PBXGroup;
 			children = (
-				F8EFC1DC1E07C7FB0069081D /* AppDelegate.swift */,
-				F8EFC1DE1E07C7FB0069081D /* ViewController.swift */,
-				F8EFC1E01E07C7FB0069081D /* Main.storyboard */,
-				F8EFC1E31E07C7FB0069081D /* Assets.xcassets */,
-				F8EFC1E51E07C7FB0069081D /* LaunchScreen.storyboard */,
-				F8EFC1E81E07C7FB0069081D /* Info.plist */,
+				F8EFC1EE1E07CA410069081D /* Classes */,
+				F8EFC1EF1E07CA530069081D /* Resources */,
 			);
 			path = "MVP Test1";
+			sourceTree = "<group>";
+		};
+		F8EFC1EE1E07CA410069081D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC1F11E07CA8A0069081D /* Module */,
+				F8EFC1F01E07CA7F0069081D /* Data Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F8EFC1EF1E07CA530069081D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC21C1E07D06F0069081D /* Info.plist */,
+				F8EFC2121E07CDA90069081D /* LaunchScreen.storyboard */,
+				F8EFC2141E07CDA90069081D /* Main.storyboard */,
+				F8EFC2101E07CD6C0069081D /* Assets.xcassets */,
+				F8EFC2081E07CCD50069081D /* AppDelegate.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8EFC1F01E07CA7F0069081D /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC2061E07CC560069081D /* FormData.swift */,
+				F8EFC21E1E07DF650069081D /* APIData.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		F8EFC1F11E07CA8A0069081D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC1F21E07CA960069081D /* Read */,
+				F8EFC1F41E07CAAD0069081D /* Edit */,
+				F8EFC1F31E07CA9E0069081D /* Insert */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		F8EFC1F21E07CA960069081D /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC1F51E07CACD0069081D /* View */,
+				F8EFC1F61E07CAD40069081D /* Presenter */,
+				F8EFC1F71E07CADD0069081D /* Model */,
+			);
+			name = Read;
+			sourceTree = "<group>";
+		};
+		F8EFC1F31E07CA9E0069081D /* Insert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Insert;
+			sourceTree = "<group>";
+		};
+		F8EFC1F41E07CAAD0069081D /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		F8EFC1F51E07CACD0069081D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC1F81E07CB470069081D /* ReadTableViewController.swift */,
+				F8EFC1FA1E07CB730069081D /* ReadTableViewControllerProtocol.swift */,
+				F8EFC1FC1E07CB9D0069081D /* ReadTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F8EFC1F61E07CAD40069081D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC1FE1E07CBC40069081D /* ReadPresenter.swift */,
+				F8EFC2001E07CBDE0069081D /* ReadPresenterProtocol.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		F8EFC1F71E07CADD0069081D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8EFC2021E07CC070069081D /* ReadModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8EFC1EB1E07C7FB0069081D /* Build configuration list for PBXNativeTarget "MVP Test1" */;
 			buildPhases = (
+				989F5D79AFD8DF71D8D3A660 /* [CP] Check Pods Manifest.lock */,
 				F8EFC1D51E07C7FB0069081D /* Sources */,
 				F8EFC1D61E07C7FB0069081D /* Frameworks */,
 				F8EFC1D71E07C7FB0069081D /* Resources */,
+				1BE14BCC1A39A0F4849CA306 /* [CP] Embed Pods Frameworks */,
+				1B6AEA17427CE73BC547AC2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,41 +252,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EFC1E71E07C7FB0069081D /* LaunchScreen.storyboard in Resources */,
-				F8EFC1E41E07C7FB0069081D /* Assets.xcassets in Resources */,
-				F8EFC1E21E07C7FB0069081D /* Main.storyboard in Resources */,
+				F8EFC21D1E07D06F0069081D /* Info.plist in Resources */,
+				F8EFC2161E07CDAA0069081D /* LaunchScreen.storyboard in Resources */,
+				F8EFC2111E07CD6C0069081D /* Assets.xcassets in Resources */,
+				F8EFC2171E07CDAA0069081D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B6AEA17427CE73BC547AC2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BE14BCC1A39A0F4849CA306 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989F5D79AFD8DF71D8D3A660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8EFC1D51E07C7FB0069081D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EFC1DF1E07C7FB0069081D /* ViewController.swift in Sources */,
-				F8EFC1DD1E07C7FB0069081D /* AppDelegate.swift in Sources */,
+				F8EFC1FB1E07CB730069081D /* ReadTableViewControllerProtocol.swift in Sources */,
+				F8EFC2071E07CC560069081D /* FormData.swift in Sources */,
+				F8EFC1FD1E07CB9D0069081D /* ReadTableViewCell.swift in Sources */,
+				F8EFC1FF1E07CBC40069081D /* ReadPresenter.swift in Sources */,
+				F8EFC1F91E07CB470069081D /* ReadTableViewController.swift in Sources */,
+				F8EFC2011E07CBDE0069081D /* ReadPresenterProtocol.swift in Sources */,
+				F8EFC2091E07CCD50069081D /* AppDelegate.swift in Sources */,
+				F8EFC21F1E07DF650069081D /* APIData.swift in Sources */,
+				F8EFC2031E07CC070069081D /* ReadModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8EFC1E01E07C7FB0069081D /* Main.storyboard */ = {
+		F8EFC2121E07CDA90069081D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F8EFC1E11E07C7FB0069081D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8EFC1E51E07C7FB0069081D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8EFC1E61E07C7FB0069081D /* Base */,
+				F8EFC2131E07CDA90069081D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8EFC2141E07CDA90069081D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EFC2151E07CDA90069081D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,9 +443,10 @@
 		};
 		F8EFC1EC1E07C7FB0069081D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B126D7D42A068F9C45292B /* Pods-MVP Test1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MVP Test1/Info.plist";
+				INFOPLIST_FILE = "MVP Test1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrethvicheyo.MVP-Test1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +456,10 @@
 		};
 		F8EFC1ED1E07C7FB0069081D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BC9A3026E439AC98A1A494 /* Pods-MVP Test1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MVP Test1/Info.plist";
+				INFOPLIST_FILE = "MVP Test1/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrethvicheyo.MVP-Test1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +486,7 @@
 				F8EFC1ED1E07C7FB0069081D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
