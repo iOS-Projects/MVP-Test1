@@ -22,6 +22,6 @@ class ReadPresenter{
 
 extension ReadPresenter:ReadPresenterProtocol{
     func responseData(data: [Article]) {
-        readTableViewControllerProtocol?.responseData(data: data)
+        readTableViewControllerProtocol!.responseData(data: data)
     }
 }

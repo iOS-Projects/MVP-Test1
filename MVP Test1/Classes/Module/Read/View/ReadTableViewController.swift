@@ -20,6 +20,7 @@ class ReadTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        readpresenter.readTableViewControllerProtocol = self
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

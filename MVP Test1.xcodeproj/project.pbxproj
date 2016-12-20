@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3C1F3170331FA60D09CD7BF4 /* Pods_MVP_Test1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */; };
+		F8858D821E08DACD0054FAA6 /* InsertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8858D811E08DACD0054FAA6 /* InsertModel.swift */; };
+		F8858D841E08DAE70054FAA6 /* InsertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8858D831E08DAE70054FAA6 /* InsertPresenter.swift */; };
+		F8858D861E08DB040054FAA6 /* InsertPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8858D851E08DB040054FAA6 /* InsertPresenterProtocol.swift */; };
+		F8858D881E08DB2C0054FAA6 /* InsertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8858D871E08DB2C0054FAA6 /* InsertTableViewController.swift */; };
+		F8858D8A1E08DB4A0054FAA6 /* InsertTableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8858D891E08DB4A0054FAA6 /* InsertTableViewControllerProtocol.swift */; };
 		F8EFC1F91E07CB470069081D /* ReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1F81E07CB470069081D /* ReadTableViewController.swift */; };
 		F8EFC1FB1E07CB730069081D /* ReadTableViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1FA1E07CB730069081D /* ReadTableViewControllerProtocol.swift */; };
 		F8EFC1FD1E07CB9D0069081D /* ReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFC1FC1E07CB9D0069081D /* ReadTableViewCell.swift */; };
@@ -27,6 +32,11 @@
 		2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B126D7D42A068F9C45292B /* Pods-MVP Test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Test1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1.debug.xcconfig"; sourceTree = "<group>"; };
 		B4BC9A3026E439AC98A1A494 /* Pods-MVP Test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Test1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Test1/Pods-MVP Test1.release.xcconfig"; sourceTree = "<group>"; };
+		F8858D811E08DACD0054FAA6 /* InsertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertModel.swift; path = Classes/Module/Insert/Model/InsertModel.swift; sourceTree = "<group>"; };
+		F8858D831E08DAE70054FAA6 /* InsertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertPresenter.swift; path = Classes/Module/Insert/Presenter/InsertPresenter.swift; sourceTree = "<group>"; };
+		F8858D851E08DB040054FAA6 /* InsertPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertPresenterProtocol.swift; path = Classes/Module/Insert/Presenter/InsertPresenterProtocol.swift; sourceTree = "<group>"; };
+		F8858D871E08DB2C0054FAA6 /* InsertTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertTableViewController.swift; path = Classes/Module/Insert/View/InsertTableViewController.swift; sourceTree = "<group>"; };
+		F8858D891E08DB4A0054FAA6 /* InsertTableViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertTableViewControllerProtocol.swift; path = Classes/Module/Insert/View/InsertTableViewControllerProtocol.swift; sourceTree = "<group>"; };
 		F8EFC1D91E07C7FB0069081D /* MVP Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EFC1F81E07CB470069081D /* ReadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadTableViewController.swift; path = Classes/Module/Read/View/ReadTableViewController.swift; sourceTree = "<group>"; };
 		F8EFC1FA1E07CB730069081D /* ReadTableViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadTableViewControllerProtocol.swift; path = Classes/Module/Read/View/ReadTableViewControllerProtocol.swift; sourceTree = "<group>"; };
@@ -70,6 +80,32 @@
 				2A2344AA52C51A084189E86D /* Pods_MVP_Test1.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8858D7E1E08DA7D0054FAA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8858D871E08DB2C0054FAA6 /* InsertTableViewController.swift */,
+				F8858D891E08DB4A0054FAA6 /* InsertTableViewControllerProtocol.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F8858D7F1E08DA840054FAA6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F8858D831E08DAE70054FAA6 /* InsertPresenter.swift */,
+				F8858D851E08DB040054FAA6 /* InsertPresenterProtocol.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		F8858D801E08DA8D0054FAA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8858D811E08DACD0054FAA6 /* InsertModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		F8EFC1D01E07C7FB0069081D = {
@@ -152,6 +188,9 @@
 		F8EFC1F31E07CA9E0069081D /* Insert */ = {
 			isa = PBXGroup;
 			children = (
+				F8858D801E08DA8D0054FAA6 /* Model */,
+				F8858D7F1E08DA840054FAA6 /* Presenter */,
+				F8858D7E1E08DA7D0054FAA6 /* View */,
 			);
 			name = Insert;
 			sourceTree = "<group>";
@@ -316,10 +355,15 @@
 			files = (
 				F8EFC1FB1E07CB730069081D /* ReadTableViewControllerProtocol.swift in Sources */,
 				F8EFC2071E07CC560069081D /* FormData.swift in Sources */,
+				F8858D881E08DB2C0054FAA6 /* InsertTableViewController.swift in Sources */,
 				F8EFC1FD1E07CB9D0069081D /* ReadTableViewCell.swift in Sources */,
+				F8858D861E08DB040054FAA6 /* InsertPresenterProtocol.swift in Sources */,
 				F8EFC1FF1E07CBC40069081D /* ReadPresenter.swift in Sources */,
+				F8858D841E08DAE70054FAA6 /* InsertPresenter.swift in Sources */,
 				F8EFC1F91E07CB470069081D /* ReadTableViewController.swift in Sources */,
 				F8EFC2011E07CBDE0069081D /* ReadPresenterProtocol.swift in Sources */,
+				F8858D821E08DACD0054FAA6 /* InsertModel.swift in Sources */,
+				F8858D8A1E08DB4A0054FAA6 /* InsertTableViewControllerProtocol.swift in Sources */,
 				F8EFC2091E07CCD50069081D /* AppDelegate.swift in Sources */,
 				F8EFC21F1E07DF650069081D /* APIData.swift in Sources */,
 				F8EFC2031E07CC070069081D /* ReadModel.swift in Sources */,
