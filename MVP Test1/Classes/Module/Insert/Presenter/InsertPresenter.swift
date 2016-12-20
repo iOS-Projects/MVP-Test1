@@ -12,6 +12,6 @@ import UIKit
 class InsertPresenter{
     var insertModel = InsertModel()
     func uploadImage(image:UIImage){
-        insertModel.uploadImage(image: <#T##UIImage#>)
+        insertModel.uploadImage(image: image)
     }
 }

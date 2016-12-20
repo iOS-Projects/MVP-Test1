@@ -12,9 +12,8 @@ import Alamofire
 
 class InsertModel{
     func uploadImage(image: UIImage){
-        Alamofire.upload(multipartFormData:{
-            formData in let imgData = UIImagePNGRepresentation(image)
-            formData.
-        })
+        Alamofire.upload(multipartFormData: { formData in
+        
+        }, usingThreshold: <#T##UInt64#>, to: <#T##URLConvertible#>, method: <#T##HTTPMethod#>, headers: <#T##HTTPHeaders?#>, encodingCompletion: <#T##((SessionManager.MultipartFormDataEncodingResult) -> Void)?##((SessionManager.MultipartFormDataEncodingResult) -> Void)?##(SessionManager.MultipartFormDataEncodingResult) -> Void#>)
     }
 }
